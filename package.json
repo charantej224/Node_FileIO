@@ -1,0 +1,19 @@
+{
+  "name": "microservice-node",
+  "version": "1.0.0",
+  "description": "sample node micro service app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "charan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "nvm": "0.0.4",
+    "promise": "^8.0.2"
+  }
+}
